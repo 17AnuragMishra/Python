@@ -1,0 +1,24 @@
+#String Methods
+name = "Anurag Mishra"
+print(l en(name))
+print(name.find("o"))
+print(name.capatalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha())
+print(name.count('o'))
+print(name.replace("o","a"))
+print(name*3)
+
+#variables
+we can separate many variables with just a comma
+name = age = human = "anurag", 20, True
+
+#Type casting
+x = 1
+y = 2.0
+z = "3"
+
+x = float(x)
+#just put the variable that needed to be changed in brackets.
