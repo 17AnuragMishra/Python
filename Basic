@@ -12,13 +12,27 @@ print(name.replace("o","a"))
 print(name*3)
 
 #variables
-we can separate many variables with just a comma
+We can separate many variables with just a comma
 name = age = human = "anurag", 20, True
 
 #Type casting
 x = 1
-y = 2.0
+y = 2.0  
 z = "3"
 
 x = float(x)
-#just put the variable that needed to be changed in brackets.
+# Just put the variable that needed to be changed in brackets.
+
+#Math Function
+print(round(pi))
+print(math.floor(pi))
+print(math.celi(pi))
+print(abs(pi))
+print(pow(pi,2))
+print(math.sqrt(420))
+print(max(thing need to be compared))
+print(min(same))
+
+Slicing = Create a substring by extracting the element
+          indexing[] or slice()
+          [start:stop: step]
