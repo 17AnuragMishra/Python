@@ -107,9 +107,54 @@ capitals = {'India':'New Delhi',
 for key, value in capitals.items():
     print(key, value)
 
-same method to pop, update and etc.
+same method to pop, update, etc.
 print(capital.pop("china"))
-print(capital.update("#either to make new entry or update pre existing values.))
+print(capital.update("#either to make new entry or update pre-existing values.))
 
 //////////////////////////////////////////////////////////
-#index operator - 
+#index operator -
+eg -
+first_name =  name[:3].upper()
+last_name = name[4:].lower()
+
+/////////////////////////////////////////////////////////
+
+Functions - It is all about when you call the particular function in the program
+eg -
+def name(name):
+    print("Hello " + name)
+name("anurag")
+
+eg -
+def Applicant(Your_Name, Age, College):
+    College_names = {1: 'NITM', 2: "NIIT", 3: 'EC'}
+    print(College_names.values())
+    print("College: "+ (College))
+    if College == College_names[1]:
+        print("Eligible proceed")
+    else:
+        print("Not Eligible")
+Applicant(input("Name: "), int(input("Age: ")), input("College: "))
+
+
+////////////////////////////////////////////////////////
+Return statement - 
+Functions send Python values back to the caller.
+
+eg = 
+def multiply(number1, number2)
+    result = number 1 * number2 
+    return result
+print(multiply(5,6))
+
+or we can store the value also...
+like 
+
+x = multiply(6,8)
+print(x)
+
+///////////////////////////////////////////////////////
+Keyword arguments = 
+
+def friends(name, review):
+    
